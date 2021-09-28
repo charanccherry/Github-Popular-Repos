@@ -1,0 +1,39 @@
+.github-home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.heading {
+  color: black;
+  font-size: 50px;
+  font-family: Lobster;
+  font-weight: bold;
+}
+.language-filter-tab {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+}
+.repo-display-items {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  max-width: 80vw;
+}
+.error-view-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.error-view-image {
+  height: 50vh;
+  width: 50vw;
+}
+.error-message {
+  font-size: 40px;
+  font-weight: bold;
+}
